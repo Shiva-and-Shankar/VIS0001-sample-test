@@ -139,5 +139,11 @@
       </div>
     </main>
   </div>
+
+  <!-- Intentional crash issue -->
+  <script>
+    // This will throw a ReferenceError when the page loads
+    triggerUndefinedFunction();
+  </script>
 </body>
 </html>
